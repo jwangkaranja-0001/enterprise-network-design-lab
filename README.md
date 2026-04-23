@@ -21,7 +21,7 @@ The network consists of the following components:
 
 ![image.png](attachment:56ac37fe-bfa1-41f0-ac58-69e3da9a65fc:image.png)
 
-### 2.2 Design Principles
+### Design Principles
 
 - Hierarchical network design (Access → Distribution → Core)
 - VLAN segmentation per department
@@ -30,7 +30,7 @@ The network consists of the following components:
 
 ## 3. VLAN & IP Addressing Design
 
-### 3.1 VLAN Structure
+### VLAN Structure
 
 | VLAN ID | Name | Purpose |
 | --- | --- | --- |
@@ -48,7 +48,7 @@ The network consists of the following components:
 | 30 | 192.168.30.0/24 | 192.168.30.1 |
 | 99 | 192.168.99.0/24 | 192.168.99.1 |
 
-## 4. VLAN Implementation
+## VLAN Implementation
 
 VLANs were created consistently across all switches to ensure uniform Layer 2 segmentation.
 
@@ -104,7 +104,7 @@ Switch Access 2
 
 Switch Access 3
 
-## 5. Access Port Assignment
+## Access Port Assignment
 
 Each switch was configured to assign end devices to their respective VLANs based on departmental grouping.
 
@@ -136,7 +136,7 @@ Switch Access 2
 
 Switch access 3
 
-## 6. Trunking Configuration
+## Trunking Configuration
 
 Trunk links were configured between access and distribution switches to carry multiple VLANs.
 
@@ -188,7 +188,7 @@ STP is doing
 
 Spanning Tree Protocol automatically prevents loops by blocking redundant paths while maintaining backup links.
 
-## 7. Spanning Tree Protocol (STP)
+## Spanning Tree Protocol (STP)
 
 ### Configuration
 
@@ -280,7 +280,7 @@ Results showed ping results successful.
 
 ![image.png](attachment:2c42383a-b8d2-4347-ab72-213bb11ad740:image.png)
 
-## 9. DHCP Services
+## DHCP Services
 
 Dynamic IP addressing was configured on the router to automate host configuration.
 
@@ -307,7 +307,7 @@ SW3-HR-03
 
 SW1-SALES-02
 
-## 10. Management VLAN (VLAN 99)
+## Management VLAN (VLAN 99)
 
 A dedicated management VLAN was created for secure remote administration of network devices.
 
@@ -376,7 +376,7 @@ Ran `show ip arp` to view the learned MAC addresses and got this result.
 
 Switch Access 1
 
-## 11. Port Security Implementation
+## Port Security Implementation
 
 Port security was implemented to prevent unauthorized device access. Ensured that all used access ports were configured to allow only one device. Once the port has been assigned and has learned the MAC address, it will not allow any other device to connect.
 
@@ -425,7 +425,7 @@ Ping request from SW1-SALES-01 to SW2-IT-02
 
 show port-security interface fastEthernet0/1
 
-## 12. Connectivity Testing & Validation
+## Connectivity Testing & Validation
 
 ### Test Cases
 
@@ -456,7 +456,7 @@ show running-config on SW-ACCESS-1
 
 show running-config on SW-ACCESS-1
 
-Improvements
+## Improvements
 
 - SSH configuration for secure remote access
 - Access Control Lists (ACLs) for traffic filtering
