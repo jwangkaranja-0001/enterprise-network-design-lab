@@ -269,11 +269,13 @@ Trunking on R-CORE-1
 
 Network after no shutdown on R-CORE-1
 
-![801.1Q Tagging on vlans to separate traffic](attachment:38465f16-85cc-4cd2-be8e-8defaa0f9216:image.png)
+<img width="1363" height="767" alt="image" src="https://github.com/user-attachments/assets/9087606b-74a5-40fa-9065-9d015a5d760a" />
+
 
 801.1Q Tagging on vlans to separate traffic
 
-![Tagging to separate traffic logically](attachment:ac9d5c76-eb8c-41ca-ac2d-11f9a2f423d6:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/b1ccc24a-003e-4daa-ba0e-9e492fd5a2f7" />
+
 
 Tagging to separate traffic logically
 
@@ -283,11 +285,14 @@ Manually set ip addresses on 3 pcs and then ran ping across different vlans.
 
 Results showed ping results successful. 
 
-![image.png](attachment:b354d9b2-5348-4cef-a7d1-f96bb4cc865a:image.png)
+<img width="755" height="767" alt="image" src="https://github.com/user-attachments/assets/4a45f34a-bbde-4c32-b652-148dfebe42fd" />
 
-![image.png](attachment:9eaf9726-d28a-4f98-b820-aa5ca73f99ac:image.png)
+<img width="757" height="767" alt="image" src="https://github.com/user-attachments/assets/40f2c84e-cc50-4646-b9a5-14bd6e677c30" />
 
-![image.png](attachment:2c42383a-b8d2-4347-ab72-213bb11ad740:image.png)
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/06cc8f79-b970-4a2f-bcc5-90444a0d2312" />
+
+
 
 ## DHCP Services
 
@@ -302,17 +307,19 @@ Dynamic IP addressing was configured on the router to automate host configuratio
 
 - DHCP lease confirmation on client machines
 
-![Creating DHCP pool on Router](attachment:89e00de7-a8f1-4c20-becc-f9f70bb74e84:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/45481ff9-4230-4363-9a0f-18ac7d70a726" />
 
 Creating DHCP pool on Router
 
 #### Testing DHCP on PCs
 
-![SW3-HR-03](attachment:a5ba4eab-ec38-4e11-aa76-675864816e4b:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/80322f6a-370a-4c51-80e7-c6b3bb0a4569" />
+
 
 SW3-HR-03
 
-![SW1-SALES-02](attachment:6b2ad708-5204-40b8-bcb2-28f4490aa390:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/8ad0d969-9bdb-49d6-9aca-24f49f51126a" />
+
 
 SW1-SALES-02
 
@@ -321,6 +328,7 @@ SW1-SALES-02
 A dedicated management VLAN was created for secure remote administration of network devices.
 
 ### Purpose
+<img width="630" height="185" alt="image" src="https://github.com/user-attachments/assets/432452d1-ef53-4c60-9d88-4e07e1e708f7" />
 
 - Isolates management traffic
 - Enables secure device administration
@@ -331,7 +339,6 @@ On SW-DIST-1
 ip address 192.168.99.1 255.255.255.0
 no shutdown`
 
-![image.png](attachment:7391d351-7d76-4cc6-833e-844cbc76abde:image.png)
 
 On Access Switches
 
