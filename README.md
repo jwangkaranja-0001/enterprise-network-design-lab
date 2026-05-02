@@ -91,16 +91,16 @@ Named all switches and the router.
 ### Verification
 
 - `show vlan brief` confirmed VLAN consistency across all switches
-
-![Switch Distribution 1](attachment:fad47fb9-202c-4e56-bd58-dbeb56b390f7:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/561db099-8943-4893-91a3-7c7f9f40dbdf" />
 
 Switch Distribution 1
 
-![Switch Access 2](attachment:c5cc1681-5eac-435e-a4e8-9ea1362dde78:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/b9e362cd-5ae3-4291-a656-b23d1d63260b" />
+
 
 Switch Access 2
 
-![Switch Access 3](attachment:053d4684-d890-4a33-85fe-247a17047fd9:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/abd919f1-02af-408f-992a-4ec1dc921035" />
 
 Switch Access 3
 
@@ -124,15 +124,18 @@ Example configuration
 
 `description MW3-HR-01`
 
-![Switch Access 1](attachment:e55e08c0-fa90-4da5-b4bc-7e4699e255d9:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/773f9e06-ae3a-41ef-b116-d90fcd8ee0df" />
+
 
 Switch Access 1
 
-![Switch Access 2](attachment:e3d75a80-dabe-4433-932b-4955bb54a37f:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/c9291d86-a837-4d28-ad41-6d097b09ab9b" />
+
 
 Switch Access 2
 
-![Switch access 3](attachment:e76467f9-3f0d-4a34-8368-1fed8809ba67:image.png)
+
+
 
 Switch access 3
 
@@ -160,19 +163,23 @@ Configured trunks between the different switches
 
 `show interfaces trunk`
 
-![Switch Access Two - Configure trunks](attachment:1b5d0bcb-a065-4a63-8818-c74b2a818218:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/14b5635f-fa25-423c-97f1-dd22cc77aa6b" />
+
 
 Switch Access Two - Configure trunks
 
-![Switch Access 1 - Verify Trunks](attachment:138bd793-e937-4e13-b874-e2c01a01385a:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/0185c932-e58d-4e26-95ef-001d580251fa" />
+
 
 Switch Access 1 - Verify Trunks
 
-![Switch Access 3 - Configured Trunks and verified results](attachment:a5f0a42c-33ec-4037-b4d6-2b8a790bf64d:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/8f61260c-582d-4c61-a089-46432291ef79" />
+
 
 Switch Access 3 - Configured Trunks and verified results
 
-![Switch Distribution 1 - Configured trunks](attachment:475f975f-eec7-43e3-b609-40363ee50ed0:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/24ba996d-9cba-4a48-abee-0b76bd019f76" />
+
 
 Switch Distribution 1 - Configured trunks
 
@@ -206,11 +213,12 @@ SW-DIST-1 was configured as the root bridge:
 
 SW-DIST-1 acts as the central switching decision point for the campus network.
 
-![Verification results of: show spanning-tree before configuration](attachment:972a420a-7a9c-4897-b105-78f025e4e762:image.png)
+<img width="916" height="767" alt="image" src="https://github.com/user-attachments/assets/9fed93ea-bba1-420f-a466-1946637a5802" />
+
 
 Verification results of: show spanning-tree before configuration
 
-![Results of verification of: show spanning-tree after configuration](attachment:0807ab4d-0694-4a54-928c-98cfc37f8a40:image.png)
+<img width="916" height="767" alt="image" src="https://github.com/user-attachments/assets/caef513f-9616-4cf1-9640-c785bffd4c6d" />
 
 Results of verification of: show spanning-tree after configuration
 
@@ -248,15 +256,16 @@ Router-on-a-stick was implemented using subinterfaces on R-CORE-1 to enable comm
 
 - Successful inter-VLAN communication verified via ping tests
 
-![Trunking on SW-DIST-1](attachment:7a5de08b-ae6a-4d88-b5df-e0b9d01b2dc4:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/8572cab8-8f0a-44c0-9a18-e4df33ff22a1" />
+
 
 Trunking on SW-DIST-1
 
-![Trunking on R-CORE-1](attachment:1dcac908-df3d-4026-8813-7b039e1435d3:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ee359be5-7d0c-49e9-a59e-fad7537b8280" />
 
 Trunking on R-CORE-1
 
-![Network after no shutdown on R-CORE-1](attachment:76d569a7-9a33-4aa5-88d0-07c3088d7bbe:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ac0ea983-dead-4e61-8913-251bccb038b9" />
 
 Network after no shutdown on R-CORE-1
 
