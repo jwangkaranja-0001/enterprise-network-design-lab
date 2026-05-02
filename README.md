@@ -19,7 +19,7 @@ The network consists of the following components:
 | SW-DIST-1 | Distribution Switch (Layer 2 aggregation + STP root) |
 | R-CORE-1 | Router (Inter-VLAN routing using Router-on-a-Stick) |
 
-![image.png](attachment:56ac37fe-bfa1-41f0-ac58-69e3da9a65fc:image.png)
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/e08fb70c-274e-45d3-9370-07a2eff2dda8" />
 
 ### Design Principles
 
