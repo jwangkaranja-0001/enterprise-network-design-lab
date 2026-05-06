@@ -355,15 +355,18 @@ no shutdown`
 | SW-ACCESS-2 | 192.168.99.3 |
 | SW-ACCESS-3 | 192.168.99.4 |
 
-![Switch Access 1](attachment:ffd79de6-183d-431d-92bc-6683b8d24775:image.png)
+<img width="728" height="253" alt="image" src="https://github.com/user-attachments/assets/42642e8a-ff97-41b8-8133-4459b7bc9062" />
+
 
 Switch Access 1
 
-![Switch Access 2](attachment:fc2e7b3c-8d5d-4987-9175-43bf1fd2b7d5:image.png)
+<img width="723" height="320" alt="image" src="https://github.com/user-attachments/assets/6a943062-a1c0-437e-9c03-135eccdf6cc4" />
+
 
 Switch Access 2
 
-![Switch Access 3](attachment:249e2999-2d34-4dfd-827f-fb4ae28f76fd:image.png)
+<img width="728" height="246" alt="image" src="https://github.com/user-attachments/assets/da53c93a-4b0f-460e-b469-d06d321ed417" />
+
 
 Switch Access 3
 
@@ -378,17 +381,20 @@ Now you can:
 
 `ping 192.168.99.1`
 
-![SW-ACCESS-1 ping SW-DIST-1](attachment:0423f283-4a2a-4929-8bed-4fa9c0bff828:image.png)
+<img width="745" height="234" alt="image" src="https://github.com/user-attachments/assets/c1d50700-8b96-4f40-82ca-b8aad1e9bf79" />
+
 
 SW-ACCESS-1 ping SW-DIST-1
 
-![SW-ACCESS-3 ping SW-ACCESS-1](attachment:36c6d023-9316-4286-a332-ec856d565915:image.png)
+<img width="748" height="240" alt="image" src="https://github.com/user-attachments/assets/51649889-ad2c-4990-9b8b-d9849854b159" />
+
 
 SW-ACCESS-3 ping SW-ACCESS-1
 
 Ran `show ip arp` to view the learned MAC addresses and got this result.
 
-![Switch Access 1](attachment:ed43d417-a6c5-4160-a381-445308b67b52:image.png)
+<img width="768" height="322" alt="image" src="https://github.com/user-attachments/assets/30442f26-f440-42fb-ab4c-0b0197fa8c63" />
+
 
 Switch Access 1
 
@@ -407,37 +413,43 @@ Port security was implemented to prevent unauthorized device access. Ensured tha
 - Unauthorized devices are blocked
 - MAC addresses are dynamically learned and locked
 
-![SW-ACCESS-1](attachment:d35ed9d4-e481-4e0a-bc2b-955fd4fa273f:image.png)
+<img width="656" height="156" alt="image" src="https://github.com/user-attachments/assets/000f1a46-1869-4f44-a00f-f5bc805f5f3e" />
+
 
 SW-ACCESS-1
 
-![SW-ACCESS-2](attachment:af5a0559-1229-4bd7-bf18-a33e5cb0fdb0:image.png)
+<img width="697" height="162" alt="image" src="https://github.com/user-attachments/assets/c0c0ba62-4282-467d-9fb6-667e6f3f8b83" />
 
 SW-ACCESS-2
 
 Also did this with switch 3
 
-![Before learning the mac address of the pc connected to fastEthernet0/1 on SW-ACCESS-3](attachment:3ba9b2ad-ca9c-4831-acb8-1765aee211e5:image.png)
+<img width="606" height="191" alt="image" src="https://github.com/user-attachments/assets/700e1036-aed2-4caf-a207-23b1d62edbc8" />
+
 
 Before learning the mac address of the pc connected to fastEthernet0/1 on SW-ACCESS-3
 
 I sent a ping request from the pc connected to fastEthernet0/1 and then ran the show port-security interface fastEthernet0/1 to see the sticky mac address and got this result from the cli on SW-ACCESS-3
 
-![ping request from the pc connected to fastEthernet0/1 on SW-ACCESS-3](attachment:be971431-65e7-4a71-b948-c9b232e15dd9:42319f02-3013-4872-aa7c-3003d0c9e657.png)
+<img width="754" height="321" alt="image" src="https://github.com/user-attachments/assets/8570ab71-27db-4bb2-a99f-eb68215b5fed" />
+
 
 ping request from the pc connected to fastEthernet0/1 on SW-ACCESS-3
 
-![After learning the mac address of the pc connected to fastEthernet0/1 on SW-ACCESS-3](attachment:6b142c87-c48b-4514-9e09-71aedea6cc58:image.png)
+<img width="654" height="183" alt="image" src="https://github.com/user-attachments/assets/154eedd2-a2c0-4c22-a237-aa52598f4faf" />
+
 
 After learning the mac address of the pc connected to fastEthernet0/1 on SW-ACCESS-3
 
 ### Verify ping request
 
-![Ping request from SW1-SALES-01 to SW2-IT-02](attachment:ca4b3b61-8fe6-4faf-834b-a293cbb0e61f:image.png)
+<img width="759" height="386" alt="image" src="https://github.com/user-attachments/assets/799066ba-d74e-4a3e-af3a-edde378341a6" />
+
 
 Ping request from SW1-SALES-01 to SW2-IT-02
 
-![show port-security interface fastEthernet0/1](attachment:aee312e6-8b87-43d3-a663-fcf7b6f2f044:image.png)
+<img width="569" height="229" alt="image" src="https://github.com/user-attachments/assets/bbd3c583-0c01-45ec-b2c1-46e631c559ef" />
+
 
 show port-security interface fastEthernet0/1
 
@@ -460,15 +472,17 @@ show port-security interface fastEthernet0/1
 
 SHOW RUNNING-CONFIG result on SW-ACCESS-1
 
-![show running-config on SW-ACCESS-1](attachment:8eeeaaac-6804-471e-bf84-08580621aac1:image.png)
+<img width="540" height="767" alt="image" src="https://github.com/user-attachments/assets/7cbb5812-cbd1-48a9-8222-feacf1c450c7" />
+
 
 show running-config on SW-ACCESS-1
 
-![show running-config on SW-ACCESS-1](attachment:98da43f2-468c-4549-a708-d6abb215ec1c:image.png)
+<img width="601" height="767" alt="image" src="https://github.com/user-attachments/assets/c4f12792-a50c-4c3a-978f-6d99f57700a8" />
 
 show running-config on SW-ACCESS-1
 
-![show running-config on SW-ACCESS-1](attachment:21c477ea-5f9c-4392-8d29-62f9eb676f66:image.png)
+<img width="604" height="767" alt="image" src="https://github.com/user-attachments/assets/b2d6e465-eaa3-4597-975a-0415fe84b95c" />
+
 
 show running-config on SW-ACCESS-1
 
